@@ -1,7 +1,7 @@
-#from hello import add
-#def test_add():
+# from hello import add
+# def test_add():
 #    assert add(10) == 11
-    
+
 from hello import toyou, add, subtract
 
 
@@ -16,8 +16,9 @@ def teardown_function(function):
 
 
 ### Run to see failed test
-#def test_hello_add():
+# def test_hello_add():
 #    assert add(test_hello_add.x) == 12
+
 
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
